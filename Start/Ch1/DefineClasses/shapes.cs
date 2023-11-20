@@ -4,20 +4,20 @@
 // TODO: Define a class using the "class" keyword
 class Rectangle {
     // TODO: The constructor accepts parameters used to create the object
-    public Rectangle(int width, int height) {
-        this.width = width;
-        this.height = height;
+    public Rectangle(int newWidth, int newHeight) {
+        width = newWidth;
+        height = newHeight;
     }
 
     // TODO: For convenience, we can have a constructor that takes one value
     // for squares that have the same side size
     public Rectangle(int side) {
-        this.width = this.height = side;
+        width = height = side;
     }
 
     // TODO: Classes can define methods that return values
     public int getArea() {
-        return this.width * this.height;
+        return width * height;
     }
 
     // TODO: member variables hold data
